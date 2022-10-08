@@ -1,0 +1,138 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+}
+
+.title_box{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.title_box h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 29px;
+    color: #254F4C;
+    margin: 0;
+}
+
+.title_box p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #254F4C;
+}
+
+.order_table{
+    border-collapse: collapse;
+    width: 1100px;
+}
+
+.order_table thead tr{
+    border-bottom: 1px solid grey;
+}
+
+.order_table thead p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #254F4C;
+}
+
+.order_table input{
+    width: 143px;
+    padding: 15px 25px;
+}
+
+.product_box{
+    height: 83px;
+    display: flex;
+    align-items: center;
+}
+
+.product_box div{
+    margin-right: 40px;
+}
+
+.product_img img{
+    width: 53px;
+}
+
+.remove{
+    margin-left: 15px;
+}
+
+.remove img{
+    width: 20px;
+}
+
+.product_container p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1d3130;
+}
+
+.button_cell button{
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    background-color: #f44336;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.sum_number{
+    display: flex;
+    width: 200px;
+}
+
+.sum_number div{
+    margin-right: 10px;
+}
+
+.sum_number div p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1d3130;
+}
+
+.sum_cell{
+    border-top: 0.5px solid grey;
+}
+
+.sum_cell p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1d3130;
+}
+
+.sum_title{
+    text-align: right;
+}
+
+.sum_title p{
+    margin-right: 25px;
+}
+
+.rotate{
+    transform: rotate(180deg);
+    margin-bottom: -2px;
+}
+
+.order_table tfoot a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #5e8bce;
+}
+
+.order_table tfoot a:hover{
+    text-decoration: underline;
+}
